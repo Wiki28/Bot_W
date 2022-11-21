@@ -3,30 +3,29 @@
 // JANGAN DIHAPUS KALAU MAU DITAMBAHIN
 
 // NUMBER
-global.owner = ['62895327934887'] 
+global.owner = ['6285338324402'] 
 global.mods = [] 
 global.prems = [] 
-global.kontak = ['62895327934887']
+global.kontak = ['6285338324402']
 
 //  INFO BOT 
-global.naown = 'KRIZYN OFC'
-global.noown = '62895327934887'
-global.namebot = 'FORYN FOUR'
-global.nobot = '6289502319715'
+global.naown = 'Wiki W'
+global.noown = '6285338324402'
+global.namebot = 'W Bot'
+global.nobot = '6285338324402'
 
 //  URL SOSMED
-global.instagram = 'https://instagram.com/itskri99'
-global.github = 'https://github.com/krizynofc'
-global.gc = 'https://chat.whatsapp.com/HVyRaNWp18NKMAIHv8NjLP'
-global.web = 'https://lynk.id/kri.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.saweria = 'https://saweria.co/Kricom'
+global.instagram = 'https://instagram.com/saya_wiki'
+global.github = 'https://github.com/wiki28'
+global.gc = 'https://chat.whatsapp.com/Cneq66EzkGi2uSjc070bOq'
+global.web = '-' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.saweria = '-'
 
 // PAYMANT 
-global.dana = '081360482998'
-global.pulsa = '081360482998'
-global.gopay = '081360482998'
-global.shopay = '081360482998'
-global.ovo = '081360482998'
+global.dana = '085338324402'
+global.pulsa = '085338324402'
+global.gopay = '085338324402'
+global.shopay = '085338324402'
 
 // PROFILE ALL 
 global.ppreg = 'https://telegra.ph/file/445721f7cdab701543840.jpg'
@@ -56,8 +55,8 @@ global.fpagedoc = '999'
 // WATERMARK  
 global.wm = 'ᬊᬁ 𝐅𝐎𝐑𝐘𝐍 𝐅𝐎𝐔𝐑'
 global.watermark = wm
-global.wm2 = '⫹⫺ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 𝙆𝙧𝙞𝙯𝙮𝙣𝙊𝙛𝙘'
-global.wm3 = '⫹⫺ 𝐅𝐎𝐑𝐘𝐍 𝐅𝐎𝐔𝐑 | BOT WHATSAPP MD'
+global.wm2 = '⫹⫺ By Wiki W'
+global.wm3 = '⫹⫺ W Bot | BOT WHATSAPP MD'
 global.tb = 'WHATSAPP BOT MULTI DEVICE'
 
 //  DEFAULT MENU  
