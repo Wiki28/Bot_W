@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command }) => {
-let nyenye = `https://nzrlafndi.xyz/api/nsfw/$%7Bcommand%7D?apikey=${nzrlkey}`
+let nyenye = `https://NzrlAfndi.xyz/api/nsfw/${command}?apikey=${nzrlkey}`
     conn.sendButtonImg(m.chat, nyenye, 'Nih', wm2, 'Next', `.${command}`, m) 
 }
 handler.help = ['ahegao', 'ass', 'bdsm', 'blowjob', 'cum', 'ero', 'femdom', 'foot', 'gangbang', 'glasses', 'hentai', 'jahy', 'maid', 'manga', 'neko', 'orgy', 'panties', 'pussy','sfwneko', 'tentacles', 'thighs', 'yuri']
