@@ -277,7 +277,7 @@ ptt: true,// true diatas ga work, sebab dipaksa tanpa convert ;v
 contextInfo: { 
          externalAdReply: { 
          showAdAttribution: true,
- 	     sourceUrl: `${pickRandom([`https://vt.tiktok.com/ZSRBqB9q1/`, `https://www.instagram.com/itskri99`, `https://youtube.com/hokenbeusz`])}`,
+ 	     sourceUrl: `${pickRandom([`https://vt.tiktok.com/saya_wiki/`, `https://www.instagram.com/saya_wiki`])}`,
            title: `${ucapan()}`,  
             body: wm3, 
            thumbnail: await (await fetch(`${pickRandom(['https://telegra.ph/file/8fcbf793da8b937a21237.jpg', 'https://telegra.ph/file/bc8746f21882e9585c79b.jpg', 'https://telegra.ph/file/cf8c6dae68158bc06731d.jpg', 'https://telegra.ph/file/29b9805b4704cda560c9b.jpg'])}`)).buffer()
@@ -320,7 +320,7 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Makassar').format('HH')
   res = "Selamat Dinihari 🌛"
   if (time >= 4) {
     res = "Selamat Pagi 🌤"
