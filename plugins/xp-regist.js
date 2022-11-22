@@ -38,7 +38,7 @@ let handler = async function (m, { text, usedPrefix }) {
 Gunakan Bot Secukupnya
 Dont Call/Vc Bot 
 `.trim())
-u = '╭─❒ 〔 HALLO NEW PREN 〕\n\n❍ Jika mau ke Pengaturan Bot Klik Tombol "Rules Bot"\n❍ Jika menuju menu Klik tombol "Command"\n❍ Jika mau cari owner Klik tombol "Owner"\n\nPatuhi Rules nya,demi kenyamanan kita bersama.'
+u = '╭─❒ 〔 HALLO SAHABT GURUN 〕\n\n❍ Jika mau donasi Bot Klik Tombol "Donasi"\n❍ Jika menuju menu Klik tombol "Menu"\n❍ Jika mau cari owner Klik tombol "Owner"\n\nPatuhi Rules nya,demi kenyamanan kita bersama.'
 await conn.send3ButtonImg(m.chat, krizyn, u, wm, 'Donasi', '#donasi', 'Menu', '#menu', 'Owner', '#owner',  ftroli)
 }
 handler.help = ['daftar', 'reg'].map(v => v + ' <nama>.<umur>')
