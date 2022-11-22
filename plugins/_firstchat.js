@@ -11,7 +11,7 @@ handler.all = async function (m) {
     await this.sendBut(m.chat, `
 Hello, ${ucapan()}
 ╭───────────────╮
-        My name Most Device
+        My name W Bot
         Salah satu Bot diwhatsapp
 ╰───────────────╯
 Hello user budayakan tidak spam bot
@@ -22,7 +22,7 @@ ${user.banned ? 'kamu dibanned' : 'Bot akan membantu kalian download apapun'}
 }
 module.exports = handler
 function ucapan() {
-    const time = moment.tz('Asia/Jakarta').format('HH')
+    const time = moment.tz('Asia/Makassar').format('HH')
     res = "Selamat dinihari"
     if (time >= 4) {
         res = "Selamat pagi"
