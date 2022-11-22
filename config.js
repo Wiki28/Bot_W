@@ -53,7 +53,7 @@ global.fsizedoc = '99999999999999' // default 10TB
 global.fpagedoc = '999'
 
 // WATERMARK  
-global.wm = 'ᬊᬁ 𝐅𝐎𝐑𝐘𝐍 𝐅𝐎𝐔𝐑'
+global.wm = 'Wiki W_-'
 global.watermark = wm
 global.wm2 = '⫹⫺ By Wiki W'
 global.wm3 = '⫹⫺ W Bot | BOT WHATSAPP MD'
@@ -103,8 +103,8 @@ global.salah = 'Salah ❌\n'
 
 // WATERMARK STICKER 
 global.stiker_wait = '⏳ Stiker sedang Proses'
-global.packname = 'FORYN FOUR'
-global.author = 'By krizynOfc'
+global.packname = 'W Bot'
+global.author = 'By Wiki W'
 
 //  APIKEY ANDA 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
