@@ -1,7 +1,6 @@
 let handler = async (m, { conn }) => await conn.sendMessage(m.chat, {text: `
 Silahkan isi Data Di Bawah ini 
 untuk memperkenalkan diri kamu
-Kalau tidak mau di kosong kan saja
 Nama :
 Umur :
 askot :
