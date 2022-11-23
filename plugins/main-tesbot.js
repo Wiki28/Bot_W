@@ -25,7 +25,7 @@ ptt: true,// true diatas ga work, sebab dipaksa tanpa convert ;v
 contextInfo: { 
          externalAdReply: { 
          showAdAttribution: true,
- 	     sourceUrl: `${pickRandom([`https://vt.tiktok.com/ZSRBqB9q1/`, `https://www.instagram.com/itskri99`, `https://youtube.com/hokenbeusz`])}`,
+ 	     sourceUrl: `${pickRandom([`https://vt.tiktok.com/saya_wiki/`, `https://www.instagram.com/saya_wiki`])}`,
            title: 'FORYN FOUR ONLINE 🥰',  
             body: `Ada yang bisa dibantu ?`, 
            thumbnail: await (await fetch(`${pickRandom(['https://telegra.ph/file/8fcbf793da8b937a21237.jpg', 'https://telegra.ph/file/bc8746f21882e9585c79b.jpg', 'https://telegra.ph/file/cf8c6dae68158bc06731d.jpg', 'https://telegra.ph/file/29b9805b4704cda560c9b.jpg'])}`)).buffer()
@@ -34,9 +34,9 @@ contextInfo: {
 })
 }
 /*conn.reply(m.chat, info, m, { quoted: fakes },{ contextInfo: { externalAdReply: { showAdAttribution: true,
-      mediaUrl: "https://Instagram.com/itskri99",
+      mediaUrl: "https://Instagram.com/saya_wiki",
       mediaType: 2,
-      description: "https://Instagram.com/itskri99", 
+      description: "https://Instagram.com/saya_wiki", 
       title: global.titlebot,
       body: wm,
       thumbnail: thumb,
@@ -101,7 +101,7 @@ export default handler*/
              thumbnail: fs.readFileSync('./thumbnail.jpg')  
             }}})*/
 
-handler.customPrefix = /^(forynfour|krizyn|boti|bot|boty)$/i
+handler.customPrefix = /^(forynfour|wiki|boti|bot|boty)$/i
 handler.command = new RegExp
 
 module.exports = handler
@@ -126,7 +126,7 @@ function clockStringP(ms) {
   return [ye, ' *Years 🗓️*\n',  mo, ' *Month 🌙*\n', d, ' *Days ☀️*\n', h, ' *Hours 🕐*\n', m, ' *Minute ⏰*\n', s, ' *Second ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Makassar').format('HH')
   let res = "Selamat Dinihari 🌛"
   if (time >= 4) {
     res = "Selamat Pagi ⛅"
