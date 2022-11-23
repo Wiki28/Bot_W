@@ -3,7 +3,7 @@ let fs = require('fs')
  let moment = require('moment-timezone')
 let d = new Date(new Date + 3600000)
     let locale = 'id'
-    let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+    let wib = moment.tz('Asia/Makassar').format('HH:mm:ss')
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
     let date = d.toLocaleDateString(locale, {
@@ -26,23 +26,21 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᯤ ᴋʀɪᴢʏɴ ᴏꜰᴄ
+FN: -_Wiki W
 item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item1.TEL;waid=62895327934887:62895327934887@s.whatsapp.net
+item1.TEL;waid=6285338324402:6285338324402@s.whatsapp.net
 item1.X-ABLabel: Nomor Owner Bot
-item2.EMAIL;type=INTERNET: mhdfakri14@gmail.com
+item2.EMAIL;type=INTERNET: wikiwahyudi28@gmail.com
 item2.X-ABLabel:📫 Gmail
-item3.ADR:;;📍 Acehnese - Indonesian;;;;
+item3.ADR:;;📍 Lombok - Indonesian;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:📮 Location Owner
-item4.URL:http://youtube.com/c/hokenbeusz
+item4.URL:https://www.youtube.com/channel/UCsPpZhD5xG5GKjeRrfTTohw
 item4.X-ABLabel:Youtube
-item5.URL:https//github.com/krizynofc
+item5.URL:https//github.com/wiki28
 item5.X-ABLabel:Github
-item6.URL:https//instagram.com/mhdfakri_
+item6.URL:https//instagram.com/saya_wiki
 item6.X-ABLabel:Instagram
-item7.URL:https://lynk.id/kri.com
-item7.X-ABLabel:Website
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
     m.chat,
@@ -53,7 +51,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let krizyn = 'https://telegra.ph/file/538b6b4232ddbacf342ae.jpg'
+let krizyn = 'https://telegra.ph/file/d104b03750d12e9c101d9.jpg'
 await conn.send3ButtonImg(m.chat, krizyn, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Ownet\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm3, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner']
 handler.tags = ['info']
