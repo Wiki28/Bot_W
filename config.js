@@ -29,12 +29,12 @@ global.shopay = '085338324402'
 
 // PROFILE ALL 
 global.ppreg = 'https://telegra.ph/file/445721f7cdab701543840.jpg'
-global.fotonya1 = 'https://telegra.ph/file/c58f43806ef4b7038a7f4.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/c58f43806ef4b7038a7f4.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/d104b03750d12e9c101d9.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/d104b03750d12e9c101d9.jpg' //ini juga ganti 
 global.ppacc = 'https://telegra.ph/file/a077271ff372545599dbc.jpg'
 global.imgloc = 'https://telegra.ph/file/e6355ade20840c96814ed.jpg'
 global.media = 'https://telegra.ph/file/f209153a54698c43032f7.jpg'
-global.ppm = 'https://telegra.ph/file/85f5dd4cfb4fdd9d65cbf.jpg'  // bagian atas all command
+global.ppm = 'https://telegra.ph/file/d104b03750d12e9c101d9.jpg'  // bagian atas all command
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 
