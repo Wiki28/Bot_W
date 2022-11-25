@@ -53,7 +53,7 @@ global.fsizedoc = '99999999999999' // default 10TB
 global.fpagedoc = '999'
 
 // WATERMARK  
-global.wm = 'Wiki W_-'
+global.wm = 'W Bot'
 global.watermark = wm
 global.wm2 = '⫹⫺ By Wiki W'
 global.wm3 = '⫹⫺ W Bot | BOT WHATSAPP MD'
